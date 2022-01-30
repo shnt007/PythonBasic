@@ -1,0 +1,101 @@
+# COOKIES - are saved for certain duration of time and not destroyed when browser are closed
+facebook.com
+
+https://www.facebook.com
+
+destination:- facebook.com's IP Address
+source:- my local network IP ADDRESS
+
+Firefox - current state to facebook page state
+to handle statelessness poses (HTTP request) - cookies were born
+
+SETTING AND GETTING COOKIE in PYTHON
+# SETTING COOKIES
+set_cookie
+# 1. String
+set_cookie("user_cart")
+
+# 2. Dict
+set_cookie({'user_cart': {'item_id': '1', 'item_price':'200'}})
+
+# 3. multiple string param
+set_cookie("user_id", "password", "user_type")
+
+self.cookies[key] = value
+
+# getting cookies
+def cart(request):
+	request.COOKIES
+	if "user_cart" in request.GET:
+		print(user_cart.item_id)
+		print(user_cart.item_price)
+
+# if browser is uninstall what can be its solution
+# we can save cart data directly in our database 
+
+# cookies parameter
+# 1. max_age - in seconds. if value is kept none cookie will destroy when browser is closed
+# eg - 60*60*12*3
+# 2. expires - if this parameter is given it overrides max_age
+# eg - 02-02-2022 00:00
+# 3. path - '/' - best use of this parameter is if we dont want to send data to another site
+# 4. domain - if we dont want to use this param we set value none otherwise value is set as
+# domain="example.com"
+# 5. secure - False. value set TRUE if we restrict the page or want to access page over HTTPS
+
+# SESSION - are detroyed when browser are closed
+# setting session
+request.session[key] = value
+
+user = User.objects.get(username=request.POST.get('username'))
+if request.POST.get('password') == user.password:
+	msg = "Login success"
+	request.session['user_id'] = user.id
+	return render(request, 'dashboard.html', {'data': user})
+# getting session
+if request.session['user_id'] != null:
+
+NOTE
+# aafno project ma login form and registration form banayera lyaunu hola
+# frontend ko part you have to design yourself before we start our session
+
+
+# PROJECT Analysis
+BLOG SITE
+User - login, registration, profile, password
+Post - create, edit, show, index, comment_section
+Comment - create
+
+
+USER
+first_name
+middle_name
+last_name
+contact
+address
+email
+password
+profile_img
+
+POST
+title
+description
+image
+date
+subject/category
+create_by
+
+COMMENT
+comment
+commented_by
+commented_at
+post_id
+
+USER can CREATE POST
+USER can COMMENT in POST
+
+NAVIGATION
+PROFILE
+SETTINGS
+COMMUNITY - other users posts
+POST - post list and comments
