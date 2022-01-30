@@ -1,0 +1,48 @@
+Types of operators in python
+1. Arithmetic operators
+    1. + (Addition)
+    2. – (Subtraction)
+    3. * (Multiplication)
+    4. / (Division)
+    5. ** (Exponentiation)
+    6. // (Floor division)
+    7. % (Modulus)
+
+2. Comparision operators
+    1. > (Greater than)
+    2. < (Less than)
+    3. == (Equal to)
+    4. != (Not equal to)
+    5. >= (Greater than or equal to)
+    6. <= (Less than or equal to)
+
+3. Assignment operators
+    1. = (Assign)
+    2. += (Add and assign)
+    3. -= (Subtract and assign)
+    4. *= (Multiply and assign)
+    5. /= (Divide and assign)
+    6. %= (Modulus and assign)
+    7. **= (Exponentiation and assign)
+    8. //= (Floor-divide and assign)
+
+4. Logical operators
+    1. and
+    2. or
+    3. not
+
+5. Membership operators
+    1. in
+    2. not in
+
+6. Identity operators
+    1. is 
+    2. is not
+
+7. Bitwise operators
+    1. & (Bitwise and)
+    2. | (Bitwise or)
+    3. ^ (Bitwise xor)
+    4. ~ (Bitwise 1’s complement)
+    5. << (Bitwise left-shift)
+    6. >> (Bitwise right-shift)

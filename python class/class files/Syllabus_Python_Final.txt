@@ -1,0 +1,88 @@
+Python Basic
+
+A. Introduction
+Week 1
+1. Keywords and Identifier
+2. Statements & Comments
+3. Variables
+4. Datatypes
+5. Type Conversion
+6. Python I/O and import
+7. Python Operators
+Week 2
+B. Python Flow Control
+1. If else
+2. For Loop
+3. While Loop
+4. Break and continue
+5. Basic Function
+
+Week 3
+Python Advance
+A. Python Datatypes
+1. List
+2. Tuple
+3. String
+4. Set
+5. Dictionary
+
+B. Files
+1. File Operation
+2. Directory
+3. Exception
+4. Exception Handling
+5. User Defined Exception
+
+B. Class & Object
+1. OOP
+2. Class and Object
+3. Access Modifier
+4. Inheritance
+5. Operator Overloading
+
+Week 4
+C. Other Topics
+1. Magic function
+2. Function Argument
+3. Anonymous Function
+4. Modules and Package
+5. Iterator
+6. Generator
+7. Decorators
+8. Closure
+9. Property
+10. RegEx
+
+Week 4
+D. Git Version Control
+1. creating account
+2. creating repo
+3. setting up git in project
+4. configuration ssh key
+5. push and pull
+
+Week 4-6
+Python Django Framework
+1. Basics
+2. Environment
+3. Creating project
+4. Apps life Cycle
+5. Admin Interface
+6. Crearing Views
+7. URL Mapping
+9. Template System
+10. Models
+11. Page Redirection
+12. Emails
+13. Generaic Views
+14. Form Processing
+15. File Uploading
+16. Apache Setup
+17. Cookies handling
+18. Sessions
+19. Caching
+20. Comments
+21. RSS
+22. Ajax
+
+Week 7 onwards - Projects

@@ -1,0 +1,51 @@
+Arthmetic Operations:
+
+x = 15
+y = 4
+
+1. Addition
+print('x + y =',x+y)
+# Output: x + y = 19
+
+2. Subtraction
+print('x - y =',x-y)
+# Output: x - y = 11
+
+3. Multiply
+print('x * y =',x*y)
+# Output: x * y = 60
+
+4. Division
+print('x / y =',x/y)
+# Output: x / y = 3.75
+
+5. Floor division
+print('x // y =',x//y)
+# Output: x // y = 3
+
+6. Exponentials
+print('x ** y =',x**y)
+# Output: x ** y = 50625
+
+#Comparision Operations
+x = 10
+y = 12
+
+
+print('x > y is',x>y)
+# Output: x > y is False
+
+print('x < y is',x<y)
+# Output: x < y is True
+
+print('x == y is',x==y)
+# Output: x == y is False
+
+print('x != y is',x!=y)
+# Output: x != y is True
+
+print('x >= y is',x>=y)
+# Output: x >= y is False
+
+print('x <= y is',x<=y)
+# Output: x <= y is True

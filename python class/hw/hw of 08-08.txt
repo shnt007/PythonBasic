@@ -1,0 +1,121 @@
+1. Concatenation :
+str1 = "Hellow"
+str2 = "World"
+print("str1 + str2=",str1 + str2)
+Output = str1 + str2= HellowWorld
+
+2. Capitalize:
+cap = "hellow world "
+print(cap.capitalize())
+Output = Hellow world 
+
+3. Center
+centre_eg = "hellow"
+new_string = centre_eg.center(50)
+print("centre_eg:", new_string)
+Output: centre_eg:                       hellow 
+
+4. Count
+count_eg = "I am a pytho learner."
+substring = "am"
+count = count_eg.count(substring)
+print("This count is :",count)
+Output = This count is : 1
+
+5. Encode
+encode_eg = "My country name is Nepal."
+string = encode_eg.encode()
+print(string)
+Output = b'My country name is Nepal.'
+
+6. Endswith
+endswith_eg = "hellow, welcome to my Nepal."
+string = endswith_eg.endswith ("$$$")
+print(string)
+Output = False
+string = endswith_eg.endswith(".")
+print (string)
+Output = True
+
+7. Expandtabs
+expandtabs_eg = "hellow\tworld"
+string = expandtabs_eg.expandtabs()
+print(string)
+Output = hellow  world
+
+8. Lower
+lower_eg = "HELLOW WORLD"
+string = lower_eg.lower()
+print(string)
+Output = hellow world
+
+9. isalnum:
+isalnum_eg = "Nepal123"
+string = isalnum_eg.isalnum()
+print(string)
+Output = True
+
+10. isalpha
+isalpha_eg = "Nepal123"
+string = isalpha_eg.isalpha()
+print(string)
+Output = False
+
+isalpha_eg = "NepalXA"
+string = isalpha_eg.isalpha ()
+print(string)
+Output = True
+
+11. format
+format_eg1 = "hellow {name},I'am {age}".format(name = "Ram", age = 20)
+print(format_eg1)
+Output = hellow Ram,I'am 20
+
+format_eg2 = "hellow {0},I'm {1}".format("Ram",20)
+print(format_eg2)
+Output = hellow Ram,I'm 20
+
+format_eg3 = "Hello {}, I'M {}".format("Ram",30)
+print(format_eg3)
+Output = Hello Ram, I'M 30
+
+12. Find
+find_eg = "hellow, welcome to Nepal"
+string = find_eg.find("welcom")
+print(string)
+Output = 8
+
+13. Index
+index_eg = "hellow, welcome to Nepal"
+string = index_eg.index ("welcome")
+print (string)
+Output = 8
+
+14. Isnumeric
+isnumeric_eg = "hellow123"
+sting = isnumeric_eg.isnumeric()
+print(sting)
+Output = False
+
+isnumeric_eg = "123"
+sting = isnumeric_eg.isnumeric()
+print(sting)
+Output = True
+
+15. isdeciaml
+isdecimal_eg = "123"
+sting = isdecimal_eg.isdecimal()
+print(sting)
+Output = True
+
+16. isascii
+isascii_eg = "123"
+sting = isascii_eg.isascii()
+print(sting)
+Output = True
+
+17. isidentifier
+a = "hellow"
+x = a.isidentifier ()
+print(x)
+Output = True

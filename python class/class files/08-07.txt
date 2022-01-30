@@ -1,0 +1,72 @@
+Datatypes in Python
+1. Numbers
+Integer, float and complex 
+int = wholenumber
+float = 1.2232
+complex = 1 + 2x
+
+2. String - collection of unicode characters
+this is a example of string datatype in python
+str
+
+3. List - sequence of collection of items (same or different datatype)
+xList = ["1", 2, "itemOne"]
+
+4. tuple - same as list but is immutable
+egTuple = ("Male", "Female", "Others")
+
+5. Range
+6. dict (Dictionary) collection of unordered data with key value pair
+
+key : value
+
+{"name":"Madan", "email":"madan@gmail.com"}
+
+7. set {1, 2, 5 } - unique value
+
+country
+country_id 
+country_name
+country_code
+country_shot_form
+
+primary_key
+unique_key
+integrity
+{
+	"_key" : 54561544112,
+	"name": "Madan"
+}
+
+
+phone_number = +977 98-14146
+date_of_birth = date 15-02-2021, 15/02/2021 15022021
+created_by = date and time ddmmyyhms
+ordered_at 15 May 2021
+
+database 
+request = sequence
+
+Type casting - conversion of one datatype to another
+
+
+installation
+Variable
+Naming Rule
+Variable Type (global and local)
+Datatype
+Identifier
+Keyword - preserved or predefined words in python
+int float dict str def array
+
+String and list
+
+Operator
+Conditional Statement
+Loop
+Function or method
+
+Today's taks
+1. Research the list of functions of String
+2. Two examples for List, tuple, set, dict
+

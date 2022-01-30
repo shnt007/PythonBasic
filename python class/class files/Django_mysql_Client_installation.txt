@@ -1,0 +1,19 @@
+note:- database must be created first to execute the following step
+1. pip install mysql
+2. pip install mysqlclient
+3. go to settings.py and change
+'default': {
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'todolist_cp', # database name
+        'USER' : 'root', # database user
+        'PASSWORD' : '', # database user password
+        'HOST' : 'localhost', # hostname
+        'PORT' : '3306' # port of mysql
+    }
+
+4. python manage.py makemigrations
+5. python manage.py migrate
+
+if mysql not install yet then go to
+https://www.apachefriends.org/download.html
+download:- 7.4.27 / PHP 7.4.27 version - bug with other version

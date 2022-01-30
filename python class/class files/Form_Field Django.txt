@@ -1,0 +1,48 @@
+CharField
+        It generates a HTML input field of type text
+IntegerField
+        It generates a HTML input field of type number
+        It comes with integer validator(i.e it validates the users input whether it's integer or not)
+DateField
+        It generates a HTML input field of type date
+        It comes with date validator on user's input
+URLField
+        It generates HTML input field of type text
+        It comes with url validator on user's input
+EmailField
+        It generates HTML input field of type email
+        It validates users input whether it's a valid email or not
+FileField
+        It generates HTML input field of type file
+ImageField
+        It generates HTML input field of type file
+        It validates users input whether it's a valid image or not
+ChoiceField
+        It generates HTML select field with options
+        It allows user to select a single option.
+MultipleChoiceField
+        It generates HTML select field of type multiple select
+        It allows user to select multiple options
+BooleanField
+        It generates a HTML checkbox field
+CharField(widget=forms.Textarea)
+        To generate the HTML textarea we have to pass widget type "forms.Textarea"
+
+TEMPLATES TAG
+
+django template tag "if...else...endif"
+{% if marks > 80 %}
+    Grade A
+{% elif var2 > 70 %}
+    Grade B
+{% else %}
+    Grade C
+{% endif %}
+
+django template tag for...endfor
+{% for product in products_list %}
+<div class="product">
+  <p>Product: {{product.name}}</p>
+  <p>Cost: {{product.cost}}</p>
+</div>
+{% endfor %}

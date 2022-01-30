@@ -1,0 +1,75 @@
+1. Split
+split_eg = ("I am a Nepali.")
+print(split_eg.split ())
+Output = ['I', 'am', 'a', 'Nepali.']
+
+2. replace
+txt = "i love nepal"
+x = txt.replace("nepal","you")
+print (x)
+Output = i love you
+
+# list
+1.append
+days = ["sunday","monday","tuesday"]
+days.append("wednesday")
+print (days)
+Output = ['sunday', 'monday', 'tuesday', 'wednesday']
+
+2. extend
+days = ["sunday","monday","tuesday"]
+days_eg = ["wednesday","thursday"]
+days_eg.extend (days)
+print(days_eg)
+Output = ['wednesday', 'thursday', 'sunday', 'monday', 'tuesday']
+
+3. insert
+days = ["sunday","monday","tuesday"]
+days_insert = days.insert(4,"saturday")
+print(days)
+Output = ['sunday', 'monday', 'tuesday', 'saturday']
+
+4. index
+days = ["sunday","monday","tuesday"]
+days_left = ["wednesday","thursday"]
+days.extend(days_left)
+print (days)
+Output = ['sunday', 'monday', 'tuesday', 'wednesday', 'thursday']
+
+5. copy
+days_remaning = days.copy()
+print(days_remaning)
+Output = ['sunday', 'monday', 'tuesday', 'wednesday', 'thursday']
+
+6. clear
+days_clear = days_remaning.clear()
+print (days_clear)
+Output = No
+
+7. pop
+days = ["sunday","monday","tuesday"]
+print(days.pop(2))
+Output = tuesday
+
+8. remove
+days = ["sunday","monday","tuesday"]
+days.remove("monday")
+print(days)
+Output =  ['sunday', 'tuesday']
+
+9. sort
+num = [11,20,38,2,3,5,1,100]
+num.sort()
+print(num)
+Output = [1, 2, 3, 5, 11, 20, 38, 100]
+
+10. reverse
+num = [11,20,38,2,3,5,1,100]
+num.reverse()
+print(num)
+Output = [100, 38, 20, 11, 5, 3, 2, 1]
+
+11. count
+list_eg = ["ram","sita","gita"]
+list_eg.count("ram")
+Output = 1

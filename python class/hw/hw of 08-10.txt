@@ -1,0 +1,60 @@
+1. Real example : Liberay Management System:
+
+1. Append
+books = ["Physic","Maths","Account"]
+books.append("Nepali")
+print(books)
+Output = ['Physic', 'Maths', 'Account', 'Nepali']
+
+2. Extend
+books_1 = ["English","Chemistry"]
+books_1.extend(books)
+print (books_1)
+Output = ['English', 'Chemistry', 'Physic', 'Maths', 'Account', 'Nepali']
+
+3. Insert
+subject = ["English","Nepali","Maths"]
+subject_insert = subject.insert(2,"Social")
+print(subject)
+Output = ['English', 'Nepali', 'Social', 'Maths']
+
+4. #Index
+index_eg = subject.index("Nepali")
+print(index_eg)
+Output = 1
+
+5. # copy
+copy_eg = subject.copy()
+print(copy_eg)
+Output = ['English', 'Nepali', 'Social', 'Maths']
+
+6. #clear
+clear_eg = copy_eg.clear()
+print(copy_eg)
+Output = []
+
+7. #pop
+pop_eg = subject.pop(2)
+print(subject)
+Output = ['English', 'Nepali', 'Maths']
+
+8. #remove
+remove_eg = subject.remove("Maths")
+print(subject)
+['English', 'Nepali']
+
+9. #sort
+sort_eg = subject.sort()
+print(subject)
+Ouput = ['English', 'Maths', 'Nepali', 'Science', 'Social']
+
+10. #reverse
+reverse_eg = subject.reverse()
+print(subject)
+Output = ['Social', 'Science', 'Nepali', 'Maths', 'English']
+
+11.#count
+subject = ['Social', 'Science', 'Maths', 'Nepali', 'Maths', 'English']
+count_eg = subject.count("Maths")
+print(count_eg)
+Output = 2

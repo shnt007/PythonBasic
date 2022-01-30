@@ -1,0 +1,23 @@
+Arithmetic Operator
+1. Addition  +
+2. Substraction -
+3. Multiple *
+4. Division /
+5. Exponential **
+7. Modulas %
+8. floor division //
+
+Assignment
+1. Equals to and addition/substraction 
++= , -=
+e.g x += y
+x = x+y
+2. Equals to =
+
+Comparision
+1. Equals to == 
+2. Greater than >
+3. Smaller than <
+4. Not equals to !=
+5. Greater than equals to >=
+6. Smaller than equals to <=

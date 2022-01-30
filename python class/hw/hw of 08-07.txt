@@ -1,0 +1,44 @@
+#. Example of list:
+1. 
+name = ["ram","shyam","hari"]
+print(name)
+Output = ['ram', 'shyam', 'hari']
+
+2. 
+list = ["ram",21,"shyam",22,"hari"]
+print(list)
+output = ['ram', 21, 'shyam', 22, 'hari']
+
+# Example of tuple:
+1. 
+tuple = ("ram","shyam","hari")
+print(tuple)
+Output = ('ram', 'shyam', 'hari')
+
+2. 
+tuple = ("male","female","other")
+print(tuple)
+Output = ('male', 'female', 'other')
+
+# Example of set:
+1. 
+set = {"ram","shyam","hari"}
+print(set)
+Output = {'hari', 'ram', 'shyam'}
+
+2. 
+set = {1,2,3,4}
+print(set)
+Output = {1, 2, 3, 4}
+
+# Example of Dictionary
+1. 
+dic = {"ram":"male","age":21}
+print(dic)
+Output = {'ram': 'male', 'age': 21}
+
+2. 
+dic = {"name":"ram","email":"ram@gmail.com","age":21}
+print(dic)
+Output = {'name': 'ram', 'email': 'ram@gmail.com', 'age': 21}
+
